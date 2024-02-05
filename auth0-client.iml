@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/auth0-client">
+      <excludeFolder url="file://$MODULE_DIR$/auth0-client/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/auth0-client/tmp" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="6d4e4762-b0b4-44a0-af92-34ac08121fbc" />
+  </component>
+</module>
