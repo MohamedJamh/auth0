@@ -13,11 +13,13 @@ public class PermissionSeeder {
     private final PermissionRepository permissionRepository;
 
     private final Set<String> subjects = Set.of(
+            "all",
             "user",
             "role",
             "task"
     ); // add your subjects here
     private final Set<String> actions = Set.of(
+            "manage", // this is a special action that grants all actions
             "create",
             "read",
             "update",
