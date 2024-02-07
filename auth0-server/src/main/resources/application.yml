@@ -1,0 +1,17 @@
+# jpa configuration
+server:
+  port: 8081
+spring:
+  application:
+    name: auth0
+  datasource:
+      url: jdbc:postgresql://localhost:5432/auth0
+      username: idder
+      password: idderjamh
+      driver-class-name: org.postgresql.Driver
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
